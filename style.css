@@ -1,0 +1,170 @@
+div.grippie {
+    background: #eee url(grippie.png) no-repeat scroll center 2px;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    cursor: s-resize;
+    height: 9px;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+.resizable-textarea textarea {
+    display: block;
+    margin-bottom: 0
+}
+
+.viewerEditor {
+    height: 500px
+}
+
+.validateEditor {
+    height: 350px;
+    text-align: left;
+    border: 1px solid #bcbdba
+}
+
+.minifyClass {
+    width: 24px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background: transparent url(jsoneditor-icons.png)
+}
+
+.minifyClass.compact {
+    background-position: -72px -96px;
+    text-indent: -9999px
+}
+
+.minifyClass.format {
+    background-position: -72px -122px;
+    text-indent: -9999px
+}
+
+.CodeMirror {
+    font-size: 14px;
+    font-family: Consolas, Verdana, Geneva, sans-serif, 微软雅黑;
+    margin-left: 3px;
+    border: 1px solid silver;
+    border-width: 1px;
+    line-height: 22px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px
+}
+
+.xmltree {
+    font-family: 'trebuchet ms ';
+    font-size: 15px
+}
+
+.xmltree ul,
+.xmltree.xmltree li {
+    list-style: none
+}
+
+.xmltree li {
+    font-weight: 700;
+    padding: 0 0 0 12px;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    border: none
+}
+
+.xmltree .tree_node,
+.xmltree .attr span,
+.xmltree .LIText {
+    display: inline !important
+}
+
+.xmltree .tree_node {
+    margin-right: 8px;
+    background: #d86;
+    padding: 2px 3px;
+    color: #f4f4f4;
+    border-radius: 3px
+}
+
+.page-header {
+    margin: 10px 0
+}
+
+#share-post {
+    width: 100%;
+    overflow: hidden
+}
+
+#share-post a {
+    display: block;
+    height: 32px;
+    line-height: 43px;
+    color: #fff;
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    height: 45px;
+    float: left;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 600
+}
+
+#share-post .facebook {
+    background-color: #6788ce
+}
+
+#share-post .twitter {
+    background-color: #29c5f6
+}
+
+#share-post .google {
+    background-color: #e75c3c
+}
+
+#share-post span {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 6px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAAgCAYAAACy0fIdAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMi8xOS8xNNdcZSsAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAEFUlEQVR4nO3aT4gcRRTH8c+s2WASYyZo8A8eEhRB/LdCBP+ByUHEP5iAiHhRE/CiBPQiQiCG6EVPEhRBwWzwEg9izEFERaOCKIKuiKIIMSEeoihZxX/EmPLwetne3Zndne5N3J6tLxRVPd39uqbm129evapWSkkm01QG/u8OZDJ1yALONJos4EyjyQLONJos4EyjWVTj3gFsLspaDBaft+p2KtP3nIkVpXolzsOb+KEXQ1UFfDr24aaK92cWFkvxEO7BZcadXZmnTBVvEuIe7Wa4agixVRZvL2zEiPhBDmI72sW51aV2P3KR+O5P4ziex6el80cwhMcqWU8pVSmH0jjbUkrtUqlqs2llOKW0bhbXbU+dGSnK0T4et6Uppe+K7/tsSqlVfN5KKe0qjcUbXe5PM41NK6WeV+IGcax0fA5+qvT2NJtREb9twnCXa1bj+xlsvG7cK/cbD+I5/IuzTQwFVuAwluOEiIf/EP9S3Zgyv6oSQiybdHys41X9z9Gi3oW9OocB989go40r8czcdWtecV1R/2hqHPsr3inaA1hVtFeWCuEEyscTyGm06rxfam8QXnRYxHO9sN40k5SGc7yozxWedjJfF/UxEQsTYzFWCKGXjyeQBVyd7ab+Jd6Hz8Xf4H4ze2D6V7zwSVEPiLGZzJKi3ou/qzyglxh4NhcewIVVOtJA9gvxbahh4yDWzEVn5iln4FucL+LbW/BhcW45vhQh6Voc6nB/W3jgrtqbaw+8Z47tzWfqihe+mIuOzGN+x21CnMtE2LUPO/EZTsM6ncVLjPG0jrMXD1yepBwttVeLt4R4y/6ZrcGGMyTChTo8on8ncGWW4A4xZutwTfH5tfi4juEqaTQmvhXTrpT0ORtFFqLqQsRCHLs9uLto34y36hjLk7h6jGB3xXt3W3jiJcZsjFdxZx1j2QPXo4339J46GxWTt4UwbhfgdrEH4iwxsbvVROe5DU+aXaJgAnV2o2VCgOvxmojtZssm/S/eFp7Aozpv3imzo7h+R68PySFEfcZEvF6kxWZik8h79jtbxKavQbFgsRmXCC+8CteLZeYTxfVbdVltm47sgeszJCZzD4vFjG6MiqzD8Cno03xgS1F/g6vx56TzP+MjkSfeicW4HB/08pDsgavRFl40iVTa46YX7zCusnDEu1hso4S3TRVvmZdL7U7LzdOSPXA1RoXXHRJLpGP5zfL5ESHysd1mC4kk1gMGxYaelu4TtItL7a96fVDOQmROFi/ggaL9ogixJnviNeIlv0J44nt7fUgWcOZksVSETHcVx7+I7ZNHRIhxqfDOi/CKmNz+1etDqgo4k5ktN4hdeTeKjV5jm9IPiwnbS3i3qvEs4Myppo3fjKfPapEFnGk0OY2WaTRZwJlG8x/EnvIFN5G+mAAAAABJRU5ErkJggg==) no-repeat;
+    background-position-y: 6px;
+    background-position-x: 7px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box
+}
+
+#share-post .facebook span {
+    background-color: #3967c6
+}
+
+#share-post .twitter span {
+    background-color: #26b5f2;
+    background-position: -65px
+}
+
+#share-post .google span {
+    background-color: #e94d36;
+    background-position: -137px
+}
+
+#share-post .w {
+    width: 110px
+}
